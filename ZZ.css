@@ -24,7 +24,7 @@ body{
     animation-name: Shadow;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite
+    animation-iteration-count: infinite;
 }
 .container .Pilo{
     position: fixed;
@@ -57,10 +57,10 @@ body{
     animation-play-state: step(5555); 
 }
 @keyframes Train {
-    from{transform: translateX(-1320px);}
+    from{transform: translateX(-1320px);};
 }
 @keyframes Shadow{
-    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0);}
+    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0);};
 }
 .Rila:hover{
     background-color: hsl(0, 47%, 50%);
@@ -69,19 +69,17 @@ body{
 .container audio{
     border: 5px dotted white;
     border-radius: 1.9em;
-    box-shadow: 0px 6.5px 9.5px white, 0px -6.5px 9.5px white;
-    
-    
+    box-shadow: 0px 6.5px 9.5px white, 0px -6.5px 9.5px white;   
 }
 .container .Music{
     position: fixed;
     bottom: 27.5px;
-    right: 40.2%
+    right: 40.2%;
 }
 .Fall .F1{
     position: fixed;
     bottom: 400px;
-    left: 230px
+    left: 230px;
 }
 .Fall .F2{
     position: fixed;
