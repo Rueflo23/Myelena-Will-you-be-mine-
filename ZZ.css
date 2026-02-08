@@ -1,96 +1,28 @@
-* {
-  box-sizing: border-box;
-}
+<div class="Whole">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    <img src="Phantom/falling hearts.gif">
+    </div>
+   
+    <div class="container">
+         <img class="Rila" src="Phantom/Rila-removebg-preview.png">
 
-body {
-  background-color: rgb(255, 204, 204);
-  margin: 0;
-  min-height: 100vh;
-}
+          <img class="Pilo"  src="Phantom/test.gif">
 
-/* MAIN CONTAINER — VS CODE LOOK, GITHUB SAFE */
-.container {
-  width: 50%;
-  height: auto;
-  text-align: center;
+          <img class="Dance" src="Phantom/Valentine dance.gif">
+          <img class="Train" src="Phantom/ezgif.com-gif-maker.gif">
+          <img class="Float" src="Phantom/H 2.gif">
 
-  position: absolute;
-  top: 150px;
-  left: 50%;
-  transform: translateX(-50%) translateX(170px); /* <- replaces left:420px */
-}
-
-/* MAIN IMAGE */
-.container .Rila {
-  width: 80%;
-  box-shadow: -2px 2px 35px hsl(0, 47%, 50%);
-  animation: Shadow 1s ease-in-out infinite;
-}
-
-.Rila:hover {
-  background-color: hsl(0, 47%, 50%);
-  box-shadow: 5px 5px 5px hsl(0, 47%, 50%),
-              -5px -5px 5px hsl(0, 47%, 50%);
-}
-
-/* FIXED ELEMENTS (SCREEN-LOCKED ON PURPOSE) */
-.Pilo {
-  position: fixed;
-  width: 11%;
-  left: 0;
-  bottom: -11px;
-}
-
-.Dance {
-  position: fixed;
-  width: 10%;
-  right: 0;
-  bottom: 0;
-}
-
-.Float {
-  position: fixed;
-  width: 11%;
-  right: -20px;
-  bottom: 130px;
-}
-
-/* TRAIN */
-.Train {
-  position: fixed;
-  width: 18.2%;
-  top: -12.5px;
-  right: 0;
-  animation: Train 21.5s ease-in-out infinite alternate-reverse;
-}
-
-/* AUDIO */
-.container audio {
-  border: 5px dotted white;
-  border-radius: 1.9em;
-  box-shadow: 0px 6.5px 9.5px white,
-              0px -6.5px 9.5px white;
-}
-
-.Music {
-  position: fixed;
-  bottom: 27.5px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* ANIMATIONS (FIXED + VALID) */
-@keyframes Train {
-  from {
-    transform: translateX(-1320px);
-  }
-}
-
-@keyframes Shadow {
-  0% {
-    box-shadow: 0 0 25px rgb(249, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 50px rgb(249, 0, 0);
-  }
-}
+           <div class="Music">
+        <audio controls>
+            <source src="Phantom/Float On - Cali Life Style (youtube).mp3"> 
+          </audio> 
+           </div>
+    </div> 
+     
