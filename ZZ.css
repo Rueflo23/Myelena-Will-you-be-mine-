@@ -56,10 +56,10 @@ body{
     animation-play-state: step(5555); 
 }
 @keyframes Train {
-    from{transform: translateX(-1320px);};
+    from{transform: translateX(-1320px)}
 }
 @keyframes Shadow{
-    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0);};
+    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0)}
 }
 .Rila:hover{
     background-color: hsl(0, 47%, 50%);
@@ -75,12 +75,7 @@ body{
     bottom: 27.5px;
     right: 40.2%;
 }
-@keyframes Shadow{
-    100%{background-color: 0px 0px 50px rgb(249, 0, 0), 0px 0px -50px rgb(249, 0, 0);};
-    {
-    @keyframes Train {
-    from{transform: translateX(-1320px);};
-.Fall .F1{
+.Fall .F2{
     position: fixed;
     bottom: 400px;
     left: 230px;
